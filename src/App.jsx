@@ -1,9 +1,11 @@
 import React from "react";
+import Menu from "./components/shared/Menu";
 
 function App() {
   return (
     <>
-      <h1 className="display-1">El Rayo Cósmico</h1>
+      <Menu></Menu>
+      <main></main>
     </>
   );
 }

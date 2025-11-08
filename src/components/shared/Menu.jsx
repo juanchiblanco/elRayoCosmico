@@ -1,30 +1,26 @@
 import React from "react";
-import { Container, Nav, Navbar, NavDropdown, NavLink } from "react-bootstrap";
+import { Container, Nav, Navbar, NavLink } from "react-bootstrap";
+import logoERC from "../../assets/fotosERC/ERClogo.png"
 
 const Menu = () => {
   return (
     <header>
-      <Navbar expand="lg" className="bg-body-tertary">
-        <Container>
-          <NavLink to="/" className="navbar-brand arapey">
-            El Rayo Cósmico
-          </NavLink>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-              <NavLink className="nav-link" to={"/"}>
-                Inicio
-              </NavLink>
-              <NavLink className="nav-link" to={"/sobreNosotros"}>
-                Sobre nosotros
-              </NavLink>
-              <NavLink className="nav-link" to={"/contacto"}>
-                Contacto
-              </NavLink>{" "}
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+      <Navbar expand="lg" fixed="top" className={"p-3 p-lg-4 bgNavBar"}>
+      <Container className="justify-content-end justify-content-lg-center">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse
+          id="basic-navbar-nav"
+          className="justify-content-start justify-content-lg-center"
+        >
+          <Nav className="text-start text-lg-center">
+            <Nav.Link href="#home" className="link-light">Inicio</Nav.Link>
+            <Nav.Link href="#canciones" className="link-light">Canciones</Nav.Link>
+            <Nav.Link href="#videos" className="link-light">Videos</Nav.Link>
+            <Nav.Link href="#contacto" className="link-light">Contacto</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
     </header>
   );
 };

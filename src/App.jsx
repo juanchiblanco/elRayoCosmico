@@ -5,7 +5,8 @@ function App() {
   return (
     <>
       <Menu></Menu>
-      <main></main>
+      <main className="bgMain">
+      </main>
     </>
   );
 }

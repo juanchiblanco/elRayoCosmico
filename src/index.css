@@ -20,7 +20,7 @@
 .logoERC {
   height: 300px;
   width: 400px;
-  padding-top: 110px;
+  padding-top: 112px;
 }
 
 .logoERC:hover {
@@ -31,4 +31,9 @@
 .lineaSeparadora {
   border-bottom: 1px solid #414141;
   padding-bottom: 32px;
+}
+
+.img-carousel{
+  height: 300px;
+  width: 300px;
 }

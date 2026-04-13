@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Nav, Navbar, NavLink } from "react-bootstrap";
-import logoERC from "../../assets/fotosERC/ERClogo.png";
 
 const Menu = () => {
   return (
@@ -29,9 +28,6 @@ const Menu = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <div className="d-flex justify-content-center">
-        <img src={logoERC} alt="El Rayo Cosmico" className="img-fluid logoERC"/>
-      </div>
     </header>
   );
 };

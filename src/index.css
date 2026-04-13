@@ -20,7 +20,6 @@
 .logoERC {
   height: 300px;
   width: 400px;
-  padding-top: 112px;
 }
 
 .logoERC:hover {
@@ -33,7 +32,32 @@
   padding-bottom: 32px;
 }
 
-.img-carousel{
-  height: 300px;
-  width: 300px;
+.carousel {
+  margin-top: 90px;
+}
+
+.img-carousel {
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .carousel-img {
+    height: auto;
+  }
+
+  .carousel {
+    margin-top: 70px;
+  }
+}
+@media (max-width: 991px) {
+  .carousel {
+    margin-top: 70px;
+  }
+}
+@media (max-width: 426px) {
+  .logoERC {
+    height: 100px;
+    width: 200px;
+  }
 }

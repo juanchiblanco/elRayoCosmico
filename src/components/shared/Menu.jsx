@@ -22,7 +22,7 @@ const Menu = () => {
                 Videos
               </Nav.Link>
               <Nav.Link href="#contacto" className="link-light">
-                Contacto
+                Sobre mí
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

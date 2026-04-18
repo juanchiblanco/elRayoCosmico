@@ -57,12 +57,15 @@ const Inicio = () => {
           />
         </Carousel.Item>
       </Carousel>
-      <article className="d-flex justify-content-center container-fluid lineaSeparadora mt-4">
-        <img
+      <article className="container-fluid lineaSeparadora mt-4">
+        <div className="d-flex justify-content-center">
+          <img
           src={logoERC}
           alt="El Rayo Cosmico"
           className="img-fluid logoERC"
         />
+        </div>
+        <h3 className="lead text-center mt-3">Indie rock argentino</h3>
       </article>
     </section>
   );

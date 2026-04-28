@@ -60,12 +60,21 @@ const Inicio = () => {
       <article className="container-fluid lineaSeparadora mt-4">
         <div className="d-flex justify-content-center">
           <img
-          src={logoERC}
-          alt="El Rayo Cosmico"
-          className="img-fluid logoERC"
-        />
+            src={logoERC}
+            alt="El Rayo Cosmico"
+            className="img-fluid logoERC"
+          />
         </div>
-        <h3 className="lead text-center mt-3">Indie rock argentino</h3>
+        <h3 className="lead text-center mt-4">Indie rock argentino</h3>
+        <p className="raleway container mt-4">
+          El Rayo Cósmico es un proyecto de indie rock / alternative rock en
+          español que nación en Tucumán, Argentina. Con un sonido melancólico,
+          introspectivo y emocional, pero con una energía que empuja hacia
+          adelante, El Rayo abre un abanico de energías en sus canciones.
+          Guitarras envolventes, bases sólidas y melodías ambientales que pueden
+          llevarte de la cama a la calle. De dormir a despertar. De morir a
+          renacer.
+        </p>
       </article>
     </section>
   );

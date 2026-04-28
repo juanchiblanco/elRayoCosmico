@@ -21,6 +21,10 @@
   height: 300px;
   width: 400px;
 }
+.logoERCfooter {
+  height: 80px;
+  width: 120px;
+}
 
 .logoERC:hover {
   transform: scale(1.02);

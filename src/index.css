@@ -45,6 +45,10 @@
   object-fit: cover;
 }
 
+.card-canciones{
+  width: 300px;
+}
+
 @media (max-width: 768px) {
   .carousel-img {
     height: auto;

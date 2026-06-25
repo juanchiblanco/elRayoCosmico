@@ -45,6 +45,21 @@
   object-fit: cover;
 }
 
+.colorDescoordinado{
+  background-color: #e8af60 !important;
+}
+.colorElCielo{
+  background-color: #497e90 !important;
+}
+.colorPorLasNoches{
+  background-color: #584dba !important;
+}
+.colorParaLlevar{
+  background-color: #e1d0b6 !important;
+}
+.colorNuncaMeFui{
+  background-color: #222433 !important;
+}
 
 @media (max-width: 768px) {
   .carousel-img {

@@ -10,7 +10,6 @@ function App() {
       <Menu></Menu>
       <main className="bgMain">
         <Inicio></Inicio>
-        <hr />
         <Canciones></Canciones>
       </main>
       <Footer></Footer>

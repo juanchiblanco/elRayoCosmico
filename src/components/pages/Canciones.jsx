@@ -5,11 +5,16 @@ import elCieloTapa from "../../assets/fotosERC/elCieloTapa.png";
 import porLasNochesTapa from "../../assets/fotosERC/porLasNochesTapa.png";
 import paraLlevarTapa from "../../assets/fotosERC/paraLlevarTapa.png";
 import NuncaMeFuiAlbum from "../../assets/fotosERC/NuncaMeFuiAlbum.png";
+import { Link, useNavigate } from "react-router";
 
 const Canciones = () => {
+  const navegacion = useNavigate();
+
   return (
     <>
-      <h2 className="display-6 text-center tituloPagina">Discografía completa</h2>
+      <h2 className="display-6 text-center tituloPagina">
+        Discografía completa
+      </h2>
       <section className="container-fluid mb-4">
         <article className="container">
           <h5 className="ms-5 fs-3 my-3">Albums</h5>
@@ -67,12 +72,17 @@ const Canciones = () => {
                         </div>
                         <hr className="mt-0" />
                       </div>
-                      <Card.Text className="text-center text-light btn btn-success mt-3">
+                      <a
+                        href="https://open.spotify.com/intl-es/album/2lqEIaUsvbBxYVnSrDiQhe?si=zlG3ll6wRTeT-dXuSAMrKg"
+                        className="text-center text-light btn btn-success mt-3"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <strong>
                           Escuchar en Spotify
                           <i className="bi bi-spotify ms-1"></i>
                         </strong>
-                      </Card.Text>
+                      </a>
                     </div>
                   </Col>
                 </Row>
@@ -100,7 +110,14 @@ const Canciones = () => {
                 </Card.Text>
                 <Card.Text className="ms-auto fs-4">
                   <strong>
-                    Escuchar<i className="bi bi-spotify fs-5 ms-1"></i>
+                    <a
+                      href="https://open.spotify.com/playlist/452AGcx9akeEoehhiFj6FD?si=3199e8488d5e4970"
+                      className="nav-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Escuchar<i className="bi bi-spotify fs-5 ms-1"></i>
+                    </a>
                   </strong>
                 </Card.Text>
               </Card.Body>
@@ -121,7 +138,14 @@ const Canciones = () => {
                 </Card.Text>
                 <Card.Text className="ms-auto fs-4">
                   <strong>
-                    Escuchar<i className="bi bi-spotify fs-5 ms-1"></i>
+                    <a
+                      href="https://open.spotify.com/playlist/452AGcx9akeEoehhiFj6FD?si=3199e8488d5e4970"
+                      className="nav-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Escuchar<i className="bi bi-spotify fs-5 ms-1"></i>
+                    </a>
                   </strong>
                 </Card.Text>
               </Card.Body>
@@ -142,7 +166,14 @@ const Canciones = () => {
                 </Card.Text>
                 <Card.Text className="ms-auto fs-4">
                   <strong>
-                    Escuchar<i className="bi bi-spotify fs-5 ms-1"></i>
+                    <a
+                      href="https://open.spotify.com/playlist/452AGcx9akeEoehhiFj6FD?si=3199e8488d5e4970"
+                      className="nav-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Escuchar<i className="bi bi-spotify fs-5 ms-1"></i>
+                    </a>
                   </strong>
                 </Card.Text>
               </Card.Body>
@@ -163,7 +194,14 @@ const Canciones = () => {
                 </Card.Text>
                 <Card.Text className="ms-auto fs-4">
                   <strong>
-                    Escuchar<i className="bi bi-spotify fs-5 ms-1"></i>
+                    <a
+                      href="https://open.spotify.com/playlist/452AGcx9akeEoehhiFj6FD?si=3199e8488d5e4970"
+                      className="nav-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Escuchar<i className="bi bi-spotify fs-5 ms-1"></i>
+                    </a>
                   </strong>
                 </Card.Text>
               </Card.Body>

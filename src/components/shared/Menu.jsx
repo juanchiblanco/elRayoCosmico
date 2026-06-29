@@ -16,10 +16,7 @@ const Menu = () => {
                 Inicio
               </Nav.Link>
               <Nav.Link href="#canciones" className="link-light">
-                Canciones
-              </Nav.Link>
-              <Nav.Link href="#videos" className="link-light">
-                Videos
+                Discografía
               </Nav.Link>
               <Nav.Link href="#contacto" className="link-light">
                 Sobre mí

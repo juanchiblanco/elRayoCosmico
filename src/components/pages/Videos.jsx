@@ -3,7 +3,7 @@ import React from "react";
 const Videos = () => {
   return (
     <section className="container my-4">
-        <h2 className="display-6 text-center mt-4">Videos</h2>
+        <h2 className="display-6 text-center tituloPagina">Videos</h2>
       <div class="video-container">
         <h5 className="text-center fs-3 mb-3 mt-5">Descoordinado Lyrics Video</h5>
         <iframe

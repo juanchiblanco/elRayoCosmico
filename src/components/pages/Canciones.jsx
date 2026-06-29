@@ -9,7 +9,7 @@ import NuncaMeFuiAlbum from "../../assets/fotosERC/NuncaMeFuiAlbum.png";
 const Canciones = () => {
   return (
     <>
-      <h2 className="display-6 text-center mt-4">Discografía completa</h2>
+      <h2 className="display-6 text-center tituloPagina">Discografía completa</h2>
       <section className="container-fluid mb-4">
         <article className="container">
           <h5 className="ms-5 fs-3 my-3">Albums</h5>

@@ -1,5 +1,6 @@
 import React from "react";
-import { Container, Nav, Navbar, NavLink } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
+import { Link, NavLink, useNavigate } from "react-router";
 
 const Menu = () => {
   return (
@@ -12,18 +13,18 @@ const Menu = () => {
             className="justify-content-start justify-content-lg-center"
           >
             <Nav className="text-start text-lg-center">
-              <Nav.Link href="#home" className="link-light">
+              <NavLink to="/" className="link-light nav-link">
                 Inicio
-              </Nav.Link>
-              <Nav.Link href="#canciones" className="link-light">
+              </NavLink>
+              <NavLink to="/discografia" className="link-light nav-link">
                 Discografía
-              </Nav.Link>
-              <Nav.Link href="#videos" className="link-light">
+              </NavLink>
+              <NavLink to="/videos" className="link-light nav-link">
                 Videos
-              </Nav.Link>
-              <Nav.Link href="#contacto" className="link-light">
+              </NavLink>
+              <NavLink to="/sobremi" className="link-light nav-link">
                 Sobre mí
-              </Nav.Link>
+              </NavLink>
             </Nav>
           </Navbar.Collapse>
         </Container>

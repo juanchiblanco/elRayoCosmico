@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Card, Row, Col, Button, Alert } from "react-bootstrap";
 import descoordinadoTapa from "../../assets/fotosERC/descoordinadoTapa.jpg";
 import elCieloTapa from "../../assets/fotosERC/elCieloTapa.png";
@@ -6,9 +6,18 @@ import porLasNochesTapa from "../../assets/fotosERC/porLasNochesTapa.png";
 import paraLlevarTapa from "../../assets/fotosERC/paraLlevarTapa.png";
 import NuncaMeFuiAlbum from "../../assets/fotosERC/NuncaMeFuiAlbum.png";
 import { Link, useNavigate } from "react-router";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Canciones = () => {
   const navegacion = useNavigate();
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
 
   return (
     <>
@@ -19,7 +28,7 @@ const Canciones = () => {
         <article className="container">
           <h5 className="ms-5 fs-3 my-3">Albums</h5>
           <div className="row justify-content-center">
-            <Card className="col-12 shadow colorNuncaMeFui">
+            <Card className="col-12 shadow colorNuncaMeFui"data-aos="fade-up">
               <Card.Body>
                 <Row>
                   <Col md={6} lg={5}>
@@ -94,7 +103,7 @@ const Canciones = () => {
         <article className="container">
           <h5 className="ms-5 fs-3 my-3">Singles</h5>
           <div className="row justify-content-center gap-2">
-            <Card className="d-flex flex-column shadow col-12 col-md-5 colorDescoordinado">
+            <Card className="d-flex flex-column shadow col-12 col-md-5 colorDescoordinado" data-aos="fade-right">
               <Card.Img
                 src={descoordinadoTapa}
                 alt="Descoordinado Arte de tapa"
@@ -122,7 +131,7 @@ const Canciones = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card className="d-flex flex-column shadow col-12 col-md-5 colorElCielo">
+            <Card className="d-flex flex-column shadow col-12 col-md-5 colorElCielo" data-aos="fade-left">
               <Card.Img
                 src={elCieloTapa}
                 alt="El Cielo Arte de tapa"
@@ -150,7 +159,7 @@ const Canciones = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card className="d-flex flex-column shadow col-12 col-md-5 colorPorLasNoches">
+            <Card className="d-flex flex-column shadow col-12 col-md-5 colorPorLasNoches" data-aos="fade-right">
               <Card.Img
                 src={porLasNochesTapa}
                 alt="Por las Noches Arte de tapa"
@@ -178,7 +187,7 @@ const Canciones = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card className="d-flex flex-column shadow col-12 col-md-5 colorParaLlevar">
+            <Card className="d-flex flex-column shadow col-12 col-md-5 colorParaLlevar" data-aos="fade-left">
               <Card.Img
                 src={paraLlevarTapa}
                 alt="Para Llevar Arte de tapa"

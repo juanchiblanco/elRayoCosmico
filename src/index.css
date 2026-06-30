@@ -4,6 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 main {
@@ -42,6 +43,11 @@ main {
   transition: 300ms;
 }
 
+.iconoRedSocial:hover {
+  transform: scale(1.05);
+  transition: 500ms;
+}
+
 .lineaSeparadora {
   border-bottom: 1px solid #414141;
   padding-bottom: 32px;
@@ -56,37 +62,37 @@ main {
   object-fit: cover;
 }
 
-.colorDescoordinado{
+.colorDescoordinado {
   background-color: #e8af60 !important;
 }
-.colorElCielo{
+.colorElCielo {
   background-color: #497e90 !important;
 }
-.colorPorLasNoches{
+.colorPorLasNoches {
   background-color: #584dba !important;
 }
-.colorParaLlevar{
+.colorParaLlevar {
   background-color: #e1d0b6 !important;
 }
-.colorNuncaMeFui{
+.colorNuncaMeFui {
   background-color: #222433 !important;
 }
 
 .video-container {
-    position: relative;
-    width: 100%;
-    max-width: 800px;
-    aspect-ratio: 16 / 9;
-    margin: auto;
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16 / 9;
+  margin: auto;
 }
 
 .video-container iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
-.tituloPagina{
+.tituloPagina {
   margin-top: 130px;
   margin-bottom: 50px;
 }

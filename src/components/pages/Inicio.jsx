@@ -78,11 +78,21 @@ const Inicio = () => {
         </div>
         <h3 className="lead text-center mt-4">Indie rock argentino</h3>
         <div className="d-flex justify-content-center my-3">
-          <div className="d-flex justify-content-center w-25 gap-5">
-            <a href="https://open.spotify.com/intl-es/artist/1ajIKeiJJBPatCI8eAGnJh?si=C6prtDf2StaSeehr_XS06Q" className="nav-link">
+          <div className="d-flex justify-content-center w-md-25 gap-5">
+            <a
+              href="https://open.spotify.com/intl-es/artist/1ajIKeiJJBPatCI8eAGnJh?si=C6prtDf2StaSeehr_XS06Q"
+              className="nav-link iconoRedSocial"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="bi bi-spotify fs-5"></i>
             </a>
-            <a href="https://www.youtube.com/@elrayocosmico" className="nav-link">
+            <a
+              href="https://www.youtube.com/@elrayocosmico"
+              className="nav-link iconoRedSocial"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="bi bi-youtube fs-5"></i>
             </a>
           </div>
@@ -98,8 +108,8 @@ const Inicio = () => {
         </p>
       </article>
       <article className="d-flex justify-content-center container mb-4">
-        <div className="d-flex justify-content-center gap-2">
-          <div className="col-12 col-md-6">
+        <div className="d-flex flex-column flex-md-row justify-content-center gap-2">
+          <div>
             <img
               src={ERCLondon}
               alt="El Rayo Cosmico en Londres"
@@ -107,7 +117,7 @@ const Inicio = () => {
               data-aos="fade-right"
             />
           </div>
-          <div className="col-12 col-md-6">
+          <div>
             <img
               src={ERCMontania}
               alt="El Rayo Cosmico en la montaña"

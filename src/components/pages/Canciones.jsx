@@ -36,7 +36,7 @@ const Canciones = () => {
                       <img
                         src={NuncaMeFuiAlbum}
                         alt="NuncaMeFui Album Tapa"
-                        className="img-fluid shadow"
+                        className="img-fluid shadow rounded"
                       />
                     </div>
                   </Col>

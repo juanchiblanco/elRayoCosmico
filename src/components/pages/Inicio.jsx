@@ -77,26 +77,6 @@ const Inicio = () => {
           />
         </div>
         <h3 className="lead text-center mt-4">Indie rock argentino</h3>
-        <div className="d-flex justify-content-center my-3">
-          <div className="d-flex justify-content-center w-md-25 gap-5">
-            <a
-              href="https://open.spotify.com/intl-es/artist/1ajIKeiJJBPatCI8eAGnJh?si=C6prtDf2StaSeehr_XS06Q"
-              className="nav-link iconoRedSocial"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="bi bi-spotify fs-5"></i>
-            </a>
-            <a
-              href="https://www.youtube.com/@elrayocosmico"
-              className="nav-link iconoRedSocial"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="bi bi-youtube fs-5"></i>
-            </a>
-          </div>
-        </div>
         <p className="raleway container mt-4">
           El Rayo Cósmico es un proyecto de indie rock / alternative rock en
           español que nación en Tucumán, Argentina. Con un sonido melancólico,
@@ -106,8 +86,6 @@ const Inicio = () => {
           llevarte de la cama a la calle. De dormir a despertar. De morir a
           renacer.
         </p>
-      </article>
-      <article className="d-flex justify-content-center container-fluid hero2">
         <div className="d-flex flex-column flex-md-row justify-content-center gap-4 my-5 divImgInicio">
           <div>
             <img

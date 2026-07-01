@@ -21,14 +21,13 @@ const Canciones = () => {
 
   return (
     <>
-      <h2 className="display-6 text-center tituloPagina">
-        Discografía completa
-      </h2>
-      <section className="container-fluid mb-4">
+      <section className="container-fluid py-4 hero4">
+        <h2 className="display-6 text-center tituloPagina text-light">
+          Albums
+        </h2>
         <article className="container">
-          <h5 className="ms-5 fs-3 my-3">Albums</h5>
           <div className="row justify-content-center">
-            <Card className="col-12 shadow colorNuncaMeFui"data-aos="fade-up">
+            <Card className="col-12 shadow colorNuncaMeFui mb-5" data-aos="fade-up">
               <Card.Body>
                 <Row>
                   <Col md={6} lg={5}>
@@ -99,11 +98,17 @@ const Canciones = () => {
             </Card>
           </div>
         </article>
-        <hr />
+      </section>
+      <section className="container-fluid hero5">
         <article className="container">
-          <h5 className="ms-5 fs-3 my-3">Singles</h5>
+          <h2 className="display-6 text-center tituloPagina2 text-light">
+            Singles
+          </h2>
           <div className="row justify-content-center gap-2">
-            <Card className="d-flex flex-column shadow col-12 col-md-5 colorDescoordinado" data-aos="fade-right">
+            <Card
+              className="d-flex flex-column shadow col-12 col-md-5 colorDescoordinado"
+              data-aos="fade-right"
+            >
               <Card.Img
                 src={descoordinadoTapa}
                 alt="Descoordinado Arte de tapa"
@@ -131,7 +136,10 @@ const Canciones = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card className="d-flex flex-column shadow col-12 col-md-5 colorElCielo" data-aos="fade-left">
+            <Card
+              className="d-flex flex-column shadow col-12 col-md-5 colorElCielo"
+              data-aos="fade-left"
+            >
               <Card.Img
                 src={elCieloTapa}
                 alt="El Cielo Arte de tapa"
@@ -159,7 +167,10 @@ const Canciones = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card className="d-flex flex-column shadow col-12 col-md-5 colorPorLasNoches" data-aos="fade-right">
+            <Card
+              className="d-flex flex-column shadow col-12 col-md-5 colorPorLasNoches"
+              data-aos="fade-right"
+            >
               <Card.Img
                 src={porLasNochesTapa}
                 alt="Por las Noches Arte de tapa"
@@ -187,7 +198,10 @@ const Canciones = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card className="d-flex flex-column shadow col-12 col-md-5 colorParaLlevar" data-aos="fade-left">
+            <Card
+              className="d-flex flex-column shadow col-12 col-md-5 colorParaLlevar"
+              data-aos="fade-left"
+            >
               <Card.Img
                 src={paraLlevarTapa}
                 alt="Para Llevar Arte de tapa"

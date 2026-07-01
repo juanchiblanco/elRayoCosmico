@@ -17,7 +17,7 @@ const Menu = () => {
                 Inicio
               </NavLink>
               <NavLink to="/discografia" className="link-light nav-link">
-                Discografía
+                Música
               </NavLink>
               <NavLink to="/videos" className="link-light nav-link">
                 Videos

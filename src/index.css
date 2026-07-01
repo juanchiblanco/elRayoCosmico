@@ -42,8 +42,41 @@ main {
   background-repeat: no-repeat;
   min-height: 100vh;
 }
+.hero3 {
+  background-image: url("../src//assets/Texturas\ y\ backgrounds/noche1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.hero4 {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url("../src/assets/Texturas y backgrounds/textura2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  filter: drop-shadow(1);
+}
+.hero5 {
+  background-image: url("../src//assets/Texturas\ y\ backgrounds/textura3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.hero6 {
+  background-image: url("../src//assets/Texturas\ y\ backgrounds/textura4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
 
-.imgInicio{width: 450px;}
+.imgInicio {
+  width: 450px;
+}
 
 .logoERC {
   height: 300px;
@@ -71,12 +104,18 @@ main {
 }
 
 .carousel {
-  margin-top: 90px;
+  padding-top: 89px;
+  background-image: url("../src//assets/Texturas\ y\ backgrounds/noche2.jpg");
+  background-size: cover;
 }
 
 .img-carousel {
   height: auto;
   object-fit: cover;
+}
+
+.colorERC {
+  color: #f7a61d !important;
 }
 
 .colorDescoordinado {
@@ -113,6 +152,10 @@ main {
   margin-top: 130px;
   margin-bottom: 50px;
 }
+.tituloPagina2 {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
 
 @media (max-width: 768px) {
   .carousel-img {
@@ -123,8 +166,9 @@ main {
     margin-top: 70px;
   }
 
-  
-.imgInicio{width: 300px;}
+  .imgInicio {
+    width: 300px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -132,9 +176,9 @@ main {
     margin-top: 70px;
   }
 
-  
-.imgInicio{width: 350px;}
-
+  .imgInicio {
+    width: 350px;
+  }
 }
 @media (max-width: 426px) {
   .logoERC {
@@ -142,6 +186,7 @@ main {
     width: 200px;
   }
 
-  
-.imgInicio{width: 250px;}
+  .imgInicio {
+    width: 250px;
+  }
 }

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
-body {
+#root {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -67,6 +67,34 @@ main {
   background-position: center;
   background-repeat: no-repeat;
 }
+.hero7 {
+  background-image: url("../src//assets/Texturas\ y\ backgrounds/fondoSobreMi.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.iconoSpotify {
+  width: 130px;
+}
+
+.iconoInstagram{
+  width: 80px;
+}
+.iconoWpp{
+  width: 45px;
+}
+.iconoYT{
+  width: 110px;
+}
+.iconoSoundcloud{
+  width: 100px;
+}
+
+.sectionSobreMi {
+  margin-top: 89px;
+  width: 400px !important ;
+}
 
 .imgInicio {
   width: 450px;
@@ -127,6 +155,9 @@ main {
 .colorNuncaMeFui {
   background-color: #22243300 !important;
 }
+.colorSobreMi {
+  background-color: #22243382 !important;
+}
 
 .video-container {
   position: relative;
@@ -157,7 +188,12 @@ main {
   }
 
   .carousel {
+    padding-top: 70px;
+  }
+
+  .sectionSobreMi {
     margin-top: 70px;
+    width: 300px !important ;
   }
 
   .imgInicio {
@@ -167,7 +203,12 @@ main {
 
 @media (max-width: 991px) {
   .carousel {
+    padding-top: 70px;
+  }
+
+  .sectionSobreMi {
     margin-top: 70px;
+    width: 250px !important ;
   }
 
   .imgInicio {

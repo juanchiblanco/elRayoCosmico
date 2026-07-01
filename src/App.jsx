@@ -21,7 +21,7 @@ function App() {
               element={<Canciones></Canciones>}
             ></Route>
             <Route path="/videos" element={<Videos></Videos>}></Route>
-            <Route path="/sobremi" element={<SobreMi></SobreMi>}></Route>
+            <Route path="/seguime" element={<SobreMi></SobreMi>}></Route>
             <Route path="*" element={<Error404></Error404>}></Route>
           </Routes>
         </main>

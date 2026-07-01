@@ -77,18 +77,38 @@ main {
 .iconoSpotify {
   width: 130px;
 }
+.iconoSpotify:hover {
+  transform: scale(1.03);
+  transition: 300ms;
+}
 
 .iconoInstagram{
   width: 80px;
 }
+.iconoInstagram:hover {
+  transform: scale(1.03);
+  transition: 300ms;
+}
 .iconoWpp{
   width: 45px;
 }
+.iconoWpp:hover {
+  transform: scale(1.03);
+  transition: 300ms;
+}
 .iconoYT{
-  width: 110px;
+  width: 115px;
+}
+.iconoYT:hover {
+  transform: scale(1.03);
+  transition: 300ms;
 }
 .iconoSoundcloud{
   width: 100px;
+}
+.iconoSoundcloud:hover {
+  transform: scale(1.03);
+  transition: 300ms;
 }
 
 .sectionSobreMi {

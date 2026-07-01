@@ -119,9 +119,6 @@ const Canciones = () => {
                 <Card.Text className="text-muted mb-4">
                   3 min | Febrero 2023
                 </Card.Text>
-                <Card.Text className="raleway">
-                  Descripción de la canción
-                </Card.Text>
                 <Card.Text className="ms-auto fs-4">
                   <strong>
                     <a
@@ -149,9 +146,6 @@ const Canciones = () => {
                 <Card.Title className="arapey fs-1">El Cielo</Card.Title>
                 <Card.Text className="text-muted mb-4">
                   4 min | Octubre 2024
-                </Card.Text>
-                <Card.Text className="raleway">
-                  Descripción de la canción
                 </Card.Text>
                 <Card.Text className="ms-auto fs-4">
                   <strong>
@@ -181,9 +175,6 @@ const Canciones = () => {
                 <Card.Text className="text-muted mb-4">
                   5 min | Noviembre 2024
                 </Card.Text>
-                <Card.Text className="raleway">
-                  Descripción de la canción
-                </Card.Text>
                 <Card.Text className="ms-auto fs-4">
                   <strong>
                     <a
@@ -211,9 +202,6 @@ const Canciones = () => {
                 <Card.Title className="arapey fs-1">Para Llevar</Card.Title>
                 <Card.Text className="text-muted mb-4">
                   4 min | Diciembre 2024
-                </Card.Text>
-                <Card.Text className="raleway">
-                  Descripción de la canción
                 </Card.Text>
                 <Card.Text className="ms-auto fs-4">
                   <strong>

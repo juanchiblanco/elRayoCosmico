@@ -22,8 +22,8 @@ const Menu = () => {
               <NavLink to="/videos" className="link-light nav-link">
                 Videos
               </NavLink>
-              <NavLink to="/sobremi" className="link-light nav-link">
-                Sobre mí
+              <NavLink to="/seguime" className="link-light nav-link">
+                Redes
               </NavLink>
             </Nav>
           </Navbar.Collapse>

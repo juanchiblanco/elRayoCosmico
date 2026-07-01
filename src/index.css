@@ -28,6 +28,23 @@ main {
   background-color: #ffffff;
 }
 
+.hero1 {
+  background-image: url("../src//assets/Texturas\ y\ backgrounds/noche2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.hero2 {
+  background-image: url("../src//assets/Texturas\ y\ backgrounds/textura1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.imgInicio{width: 450px;}
+
 .logoERC {
   height: 300px;
   width: 400px;
@@ -105,15 +122,26 @@ main {
   .carousel {
     margin-top: 70px;
   }
+
+  
+.imgInicio{width: 300px;}
 }
+
 @media (max-width: 991px) {
   .carousel {
     margin-top: 70px;
   }
+
+  
+.imgInicio{width: 350px;}
+
 }
 @media (max-width: 426px) {
   .logoERC {
     height: 100px;
     width: 200px;
   }
+
+  
+.imgInicio{width: 250px;}
 }

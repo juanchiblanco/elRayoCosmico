@@ -68,12 +68,12 @@ const Inicio = () => {
           />
         </Carousel.Item>
       </Carousel>
-      <article className="container-fluid my-5">
+      <article className="container-fluid pb-5 hero1 text-light">
         <div className="d-flex justify-content-center">
           <img
             src={logoERC}
             alt="El Rayo Cosmico"
-            className="img-fluid logoERC"
+            className="img-fluid logoERC mt-5"
           />
         </div>
         <h3 className="lead text-center mt-4">Indie rock argentino</h3>
@@ -107,13 +107,13 @@ const Inicio = () => {
           renacer.
         </p>
       </article>
-      <article className="d-flex justify-content-center container mb-4">
-        <div className="d-flex flex-column flex-md-row justify-content-center gap-2">
+      <article className="d-flex justify-content-center container-fluid hero2">
+        <div className="d-flex flex-column flex-md-row justify-content-center gap-4 my-5 divImgInicio">
           <div>
             <img
               src={ERCLondon}
               alt="El Rayo Cosmico en Londres"
-              className="img-fluid"
+              className="imgInicio rounded shadow"
               data-aos="fade-right"
             />
           </div>
@@ -121,7 +121,7 @@ const Inicio = () => {
             <img
               src={ERCMontania}
               alt="El Rayo Cosmico en la montaña"
-              className="img-fluid"
+              className="imgInicio rounded shadow"
               data-aos="fade-left"
             />
           </div>

@@ -12,7 +12,7 @@ function App() {
     <>
       <BrowserRouter>
         <Menu></Menu>
-        <main className="bgMain">
+        <main>
           <Routes>
             <Route path="/" element={<Inicio></Inicio>}></Route>
             <Route

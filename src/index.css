@@ -33,21 +33,18 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh;
 }
 .hero2 {
   background-image: url("../src//assets/Texturas\ y\ backgrounds/textura1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh;
 }
 .hero3 {
   background-image: url("../src//assets/Texturas\ y\ backgrounds/noche1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh;
 }
 .hero4 {
   background-image:
@@ -56,7 +53,6 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh;
   filter: drop-shadow(1);
 }
 .hero5 {
@@ -64,14 +60,12 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh;
 }
 .hero6 {
   background-image: url("../src//assets/Texturas\ y\ backgrounds/textura4.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh;
 }
 
 .imgInicio {

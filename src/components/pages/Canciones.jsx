@@ -99,7 +99,7 @@ const Canciones = () => {
           </div>
         </article>
       </section>
-      <section className="container-fluid hero5">
+      <section className="container-fluid hero5 pb-5">
         <article className="container">
           <h2 className="display-6 text-center tituloPagina2 text-light">
             Singles

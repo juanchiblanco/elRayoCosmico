@@ -44,7 +44,7 @@ const Canciones = () => {
                       <div className="d-block d-lg-flex my-3">
                         {/* Título */}
                         <h2 className="arapey fs-1 text-light">Nunca Me Fui</h2>
-                        <p className="text-light-emphasis ms-auto mt-1">
+                        <p className="text-light ms-auto mt-1">
                           31 min | Febrero 2026
                         </p>
                       </div>

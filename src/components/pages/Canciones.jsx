@@ -82,7 +82,7 @@ const Canciones = () => {
                       </div>
                       <a
                         href="https://open.spotify.com/intl-es/album/2lqEIaUsvbBxYVnSrDiQhe?si=zlG3ll6wRTeT-dXuSAMrKg"
-                        className="text-center text-light btn btn-success mt-3"
+                        className="text-center text-light botonNuncaMeFui mt-3 rounded"
                         target="_blank"
                         rel="noopener noreferrer"
                       >

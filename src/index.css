@@ -74,6 +74,18 @@ main {
   background-repeat: no-repeat;
 }
 
+.botonNuncaMeFui{
+  background-image: url("../src//assets/Texturas\ y\ backgrounds/textura3.jpg");
+    text-decoration: none;
+    padding: 10px 0px;
+    filter: opacity(90%);
+}
+
+.botonNuncaMeFui:hover{
+  filter: opacity(100%);
+  transition: 500ms;
+}
+
 .iconoSpotify {
   width: 130px;
 }

@@ -5,7 +5,7 @@ import { Link, NavLink, useNavigate } from "react-router";
 const Menu = () => {
   return (
     <header>
-      <Navbar expand="lg" fixed="top" className={"p-3 p-lg-4 bgNavBar"}>
+      <Navbar expand="lg" fixed="top" className={"p-3 p-lg-4 bgNavBar"} data-bs-theme="dark">
         <Container className="justify-content-end justify-content-lg-center">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse

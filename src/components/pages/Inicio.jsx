@@ -86,7 +86,7 @@ const Inicio = () => {
           llevarte de la cama a la calle. De dormir a despertar. De morir a
           renacer.
         </p>
-        <div className="d-flex flex-column flex-md-row justify-content-center gap-4 my-5 divImgInicio">
+        <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-4 my-5 divImgInicio">
           <div>
             <img
               src={ERCLondon}

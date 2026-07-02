@@ -37,7 +37,7 @@ main {
 .hero2 {
   background-image: url("../src//assets/Texturas\ y\ backgrounds/textura1.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
 }
 .hero3 {
@@ -69,6 +69,12 @@ main {
 }
 .hero7 {
   background-image: url("../src//assets/Texturas\ y\ backgrounds/fondoSobreMi.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero8 {
+  background-image: url("../src//assets/Texturas\ y\ backgrounds/luna.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -125,6 +131,13 @@ main {
 
 .sectionSobreMi {
   margin-top: 89px;
+  width: 400px !important ;
+}
+
+.sectionError{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding: 45px;
   width: 400px !important ;
 }
 
@@ -190,6 +203,9 @@ main {
 .colorSobreMi {
   background-color: #22243382 !important;
 }
+.colorError {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
 
 .video-container {
   position: relative;
@@ -227,6 +243,10 @@ main {
     margin-top: 70px;
     width: 300px !important ;
   }
+  .sectionError {
+    margin-top: 70px;
+    width: 300px !important ;
+  }
 
   .imgInicio {
     width: 300px;
@@ -239,6 +259,10 @@ main {
   }
 
   .sectionSobreMi {
+    margin-top: 70px;
+    width: 250px !important ;
+  }
+  .sectionError {
     margin-top: 70px;
     width: 250px !important ;
   }
